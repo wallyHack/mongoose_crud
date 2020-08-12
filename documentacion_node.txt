@@ -1,0 +1,17 @@
+
+- crea el archivo package.json con la configuración y estructura del proyecto
+npm init --yes
+
+- ORM entre mongo y node
+npm install mongoose
+
+- documentación de mongoose(-> para realizar la conexion con la db)
+https://mongoosejs.com/docs/index.html
+
+>> al hacer la conexion debemos notificar los eventos
+
+- después definimos los esquemas y modelos
+esquema: Configuración de objeto para mongoose
+modelo: representa una collection de mongodb
+
+>> Lo principal es definir el esquema con los tipos de datos, reestricciones,etc
